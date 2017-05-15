@@ -17,6 +17,8 @@
 		822F87311D15783600601A40 /* Duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 822F87301D15783600601A40 /* Duck.wav */; };
 		822F87331D15783E00601A40 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 822F87321D15783E00601A40 /* License.rtf */; };
 		8279E65B1D165CE500D08CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8279E65A1D165CE500D08CAF /* Assets.xcassets */; };
+		E91BC8FC1ECA421F0039BD22 /* Tiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = E91BC8FA1ECA421F0039BD22 /* Tiles.sks */; };
+		E91BC8FD1ECA421F0039BD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91BC8FB1ECA421F0039BD22 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		822F87301D15783600601A40 /* Duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Duck.wav; sourceTree = "<group>"; };
 		822F87321D15783E00601A40 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 		8279E65A1D165CE500D08CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91BC8FA1ECA421F0039BD22 /* Tiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tiles.sks; sourceTree = "<group>"; };
+		E91BC8FB1ECA421F0039BD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		822F87041D156DCC00601A40 = {
 			isa = PBXGroup;
 			children = (
+				E91BC8FA1ECA421F0039BD22 /* Tiles.sks */,
+				E91BC8FB1ECA421F0039BD22 /* Assets.xcassets */,
 				822F870F1D156DCC00601A40 /* RDRescue */,
 				822F870E1D156DCC00601A40 /* Products */,
 			);
@@ -156,11 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				822F871C1D156DCC00601A40 /* Main.storyboard in Resources */,
+				E91BC8FC1ECA421F0039BD22 /* Tiles.sks in Resources */,
 				822F872F1D15783200601A40 /* Gas.wav in Resources */,
 				822F87131D156DCC00601A40 /* GameScene.sks in Resources */,
 				822F87311D15783600601A40 /* Duck.wav in Resources */,
 				8279E65B1D165CE500D08CAF /* Assets.xcassets in Resources */,
 				822F87331D15783E00601A40 /* License.rtf in Resources */,
+				E91BC8FD1ECA421F0039BD22 /* Assets.xcassets in Resources */,
 				822F87211D156DCC00601A40 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
